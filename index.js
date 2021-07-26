@@ -49,7 +49,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "github",
+        name: "username",
         message: "Enter your github username." 
     },
     {
@@ -74,7 +74,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then(response => {
-            writeToFile("test.md", generateMarkdown(response))
+            writeToFile("ReadMeGen.md", generateMarkdown(response))
         })
 }
 

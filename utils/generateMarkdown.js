@@ -13,6 +13,7 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ![Badge for GitHub](https://img.shields.io/github/languages/top/${data.username}/${data.title}?style=flat&logo=appveyor) 
 
 ## Description
 
@@ -49,7 +50,7 @@ ${data.test}
 
 ## Any Questions?
 
-* ${data.github}
+* github.com/${data.username}
 * ${data.email}
 `;
 }
