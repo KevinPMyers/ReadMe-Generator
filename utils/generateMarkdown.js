@@ -35,8 +35,22 @@ ${data.installation}
 
 ${data.usage}
 
-## 
+## License
 
+${data.license}
+
+## Contributors
+
+${data.contributors}
+
+## Test
+
+${data.test}
+
+## Any Questions?
+
+* ${data.github}
+* ${data.email}
 `;
 }
 
