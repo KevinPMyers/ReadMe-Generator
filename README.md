@@ -8,6 +8,9 @@ This is an application written with Node.js and JavaScript. The purpose of this 
 ## Created By:
 Kevin Myers
 
+## Link to video
+https://drive.google.com/file/d/1reTDYAApV7YhtdqcLUB2GZgjpPLjKJTA/view
+
 ## Built With
 * JavaScript
 * Node
